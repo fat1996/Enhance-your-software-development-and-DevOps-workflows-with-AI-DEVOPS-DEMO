@@ -6,4 +6,4 @@ def test_average_handles_empty():
 
 def test_average_rounds_half_up_to_int():
     assert average([2,3]) == 2.5
-    assert average([1,2,2]) == 2.5
+    assert average([1,2,3]) == 2
